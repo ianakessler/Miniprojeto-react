@@ -1,0 +1,23 @@
+.screen{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+.screen span{
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    position: relative;
+    padding: 8px;
+    margin: 4px 4px 0 4px;
+
+}
